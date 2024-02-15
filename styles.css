@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+}
+
+button {
+    width: 50%;
+    display: inline;
+    height: 100%;
+    font-size: 30px;
+}
+
+#vrai {
+    background-color:rgb(149, 252, 149);
+}
+
+#faux {
+    background-color: rgb(255, 135, 135);
+}
+
+div {
+    display: flex;
+    height: 85vh;
+}
+
+#question {
+    font-size: 30px;
+    text-align: center;
+}
+
+#scoreText {
+    font-size: 50px;
+    display: none;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
