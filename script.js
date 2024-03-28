@@ -81,9 +81,9 @@ function showScore() {
 }
 
 function timer(){
-    var sec = 2;
+    var sec = 4;
     document.getElementById("timer").style.display = "block";
-    document.getElementById('timer').innerHTML=3;
+    document.getElementById('timer').innerHTML=5;
     var timer = setInterval(function(){
         document.getElementById('timer').innerHTML=sec;
         sec--;
