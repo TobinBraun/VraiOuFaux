@@ -11,10 +11,12 @@ button {
 
 #vrai {
     background-color:rgb(149, 252, 149);
+    display: none;
 }
 
 #faux {
     background-color: rgb(255, 135, 135);
+    display: none;
 }
 
 div {
@@ -25,6 +27,7 @@ div {
 #question {
     font-size: 30px;
     text-align: center;
+    display: none;
 }
 
 #scoreText {
