@@ -5,12 +5,15 @@
         <script src="script.js"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body onload="startButton()">
         <h3 id="question">Mao Zedong a créé des problèmes de mobilité dans la chine</h3>
         <div id="buttonDiv">
             <button id="vrai" onclick='answer("v")'>Vrai</button>
             <button id="faux" onclick='answer("f")'>Faux</button>
         </div>
-        <h1 id="scoreText">Hello</h1>
+        <h1 id="scoreText"></h1>
+        <h1 id="correctText"></h1>
+        <h1 id="timer">hello</h1>
+        <button id="start" onclick="loadQuestion()">Commencer</button>
     </body>
 </html>
